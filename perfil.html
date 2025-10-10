@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Imagens/logoIcone.png" type="image/x-icon">
         <title>GT entertainment</title>
     </head>
     <style>
@@ -13,10 +14,10 @@
         }
         header{
             margin-left: 10%;
-            border: solid black;
+            border: 1px solid white;
         }
         .lado{
-            border: solid black;
+            border: solid white;
             margin-right: 94%;
             margin-top: 1%;
             display: flex;
@@ -33,7 +34,7 @@
         }
         .botao{
             border: solid black;
-            width: 10%;
+            width: 300px;
             height: 10%;
             display: inline-block;
             margin-top: 10%;
@@ -49,7 +50,7 @@
             background-color: white; /* Cor ao ser clicado */
             color: black;
             border: solid black;
-            width: 10%;
+            width: 300px;
             height: 10%;
             font-size: larger;
         }
@@ -68,28 +69,32 @@
     </style>
     <body>
         <div class="cima">
-            <header>
+            <header style="display: flex;">
                 <div class="usuario">
                     <img src="imagens/perfil.jpeg" alt="" style="border-radius: 48%; margin-left: 3%; margin-top: 2%;">
-                    <p style="margin-top: 4%; margin-left: 8%; font-size: 200%;"> @mavie <sup>tv</sup> 
-                    </p>
-                    <button type="submit" class="botao" id="botao">Seguir</button>
-
-                    <div class="bio">
+                </div>
+                <div style="display: inline; border: solid white; margin-left: 5%;">
+                    <p style="margin-top: 4%; margin-left: 0.5%; font-size: 200%; border: solid white; "> @mavie <sup>tv</sup> 
+                        
                         <p>16y <br>
                         21 | 🇧🇷 <br>
                         Everything you lose is a step you take!</p>
-                    </div>
-
                 </div>
+                    
+                
+                <div class="usuario" >
+                    <button type="submit" class="botao" id="botao">Seguir</button> <br>
+                    <p style="font-size: 200%; margin-left: 10%; margin-top: 15%; border: solid white;"><b>8</b> postagens</p>  <p style="margin-left: 2%; margin-top: 15%; font-size: 200%; border: solid white;"><b>357</b> seguidores</p>  <p style="margin-left: 2%; margin-top: 15%; font-size: 200%; border: solid white;"><b>250</b> seguindo</p>
+                </div>
+ 
             </header>
         </div>
 
         <div class="lado">
             <aside>
                 <button type="submit"><img src="imagens/iconeld4.jpeg" alt="A imagem não carregou"></button><br>
-                <button type="submit"><img src="imagens/lupa.png" alt="A imagem não carregou"></button> <br>
-                <button type="submit"><img src="imagens/iconeld3.jpeg" alt="A imagem não carregou"></button> <br>
+                <a href="pesquisa.html"><button type="submit"><img src="imagens/lupa.png" alt="A imagem não carregou"></button></a> <br>
+                <a href="camera.html"><button type="submit"><img src="imagens/iconeld3.jpeg" alt="A imagem não carregou"></button></a> <br>
                 <button type="submit"><img src="imagens/iconeld2.jpeg" alt="A imagem não carregou"></button>
             </aside>
         

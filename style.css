@@ -8,12 +8,17 @@
             font-size: 200%;
         }
         .cima{
-            border: solid black;
+            border: solid white;
             font-family: monospace;
 
         }
+        hr{
+           color: rgba(214, 214, 214, 0.856);
+           margin-top: 2%;
+        }
         .lado{
-            border: solid black;
+            border: 1px solid rgba(214, 214, 214, 0.856); 
+            border-radius: 4%;  
             margin-right: 94%;
             margin-top: 5%;
             display: flex;
@@ -83,12 +88,8 @@
             border-radius: 2%;
         }
         .story{
+            margin-left: 0.5%;
             border-radius: 50%;
-            border-width: 4px;
-            border-style: solid;
-            border-top-color: rgb(238, 103, 220);       
-            border-right-color: rgb(252, 249, 63);    
-            border-bottom-color: rgb(157, 1, 172);  
-            border-left-color: rgb(238, 103, 220);
-            background-image: linear-gradient(to rgb(238, 103, 220), rgb(252, 249, 63),rgb(157, 1, 172), rgb(238, 103, 220));
+            border-width: 6px;
+            border: solid purple;
         }
